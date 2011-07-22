@@ -1,6 +1,6 @@
 = libnotify_gnome3
 
-Description goes here.
+Provides an alternative to libnotify that provides notifications that disappear (and don't stay queued up in the notification tray) on GNOME 3
 
 == Contributing to libnotify_gnome3
  

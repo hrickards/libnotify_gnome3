@@ -17,8 +17,9 @@ Jeweler::Tasks.new do |gem|
   gem.name = "libnotify_gnome3"
   gem.homepage = "http://github.com/hrickards/libnotify_gnome3"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Libnotify replacement that uses notify-send}
+  gem.description = %Q{A replacement for the libnotify gem that uses the notify-send system command (part of libnotify system package).
+                        This allows it to show notifications that disappear after a length of time on GNOME3)}
   gem.email = "hrickards@gmail.com"
   gem.authors = ["Harry Rickards"]
   # dependencies defined in Gemfile
